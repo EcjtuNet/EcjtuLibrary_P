@@ -1,0 +1,29 @@
+<MKM version="2.0" imageFileUrl="file:///E:/%e6%97%a5%e6%96%b0/7%e6%9c%88/%e9%be%99%e6%98%93/image/%e7%81%b5%e7%81%b5.png">
+  <Marks>
+    <RectMark color="16711680" x="0" y="0" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="151" y="25" offsetX="0" offsetY="0"/>
+    <RectMark color="16711935" x="197" y="26" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="240" y="25" offsetX="0" offsetY="0"/>
+    <RectMark color="65280" x="286" y="25" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="332" y="26" offsetX="0" offsetY="0"/>
+    <RectMark color="255" x="382" y="25" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="151" y="77" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="212" y="94" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="255" y="78" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="339" y="78" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="151" y="107" offsetX="0" offsetY="0"/>
+    <RectMark color="16711935" x="398" y="84" offsetX="0" offsetY="0"/>
+    <RectMark color="16711680" x="0" y="22" offsetX="0" offsetY="0"/>
+    <RectMark color="16711935" x="154" y="92" offsetX="0" offsetY="0"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="182" y="81" textMaxWidth="100" offsetX="248" offsetY="42" text="x=178,y=80"/>
+    <TextMark defaultDirection="9" direction="10" color="16711680" x="168" y="90" textMaxWidth="100" offsetX="150" offsetY="87" text="x=165,y=78"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="195" y="81" textMaxWidth="100" offsetX="242" offsetY="22" text="x=192,y=80"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="208" y="82" textMaxWidth="100" offsetX="228" offsetY="28" text="x=204,y=82"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="222" y="82" textMaxWidth="100" offsetX="220" offsetY="4" text="x=204,y=82"/>
+    <RectMark color="16711680" x="55" y="146" offsetX="0" offsetY="0"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="418" y="105" textMaxWidth="100" offsetX="49" offsetY="34" text="x=398,y=84"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="301" y="109" textMaxWidth="100" offsetX="67" offsetY="52" text="x=284,y=82"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="327" y="107" textMaxWidth="100" offsetX="150" offsetY="72" text="x=312,y=79"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="384" y="107" textMaxWidth="100" offsetX="84" offsetY="57" text="x=367,y=84"/>
+  </Marks>
+</MKM>

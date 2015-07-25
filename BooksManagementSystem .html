@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图书管理系统</title>
+	<link rel="stylesheet" type="text/css" href="css/BooksManagementSystem.css">
+	<script type="text/javascript"  src="js/BooksManagementSystem.js"></script>
+	<script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="aside"><!-- 侧边栏 -->
+		<div id="menubtn" style="height:25px;width:25px;margin:0 auto;margin-top:5px">
+			<img src="./images/01.png">
+		</div>
+		<div style="margin-top:200px">
+			<div class="asidebtn">
+			    <img id="asidebtn1" src="./images/66.png">
+			</div>
+			<div class="asidebtn">
+				<img id="asidebtn2" src="./images/77.png">
+			</div>
+			<div class="asidebtn">
+				<img id="asidebtn3" src="./images/79.png">
+			</div>
+			<div class="asidebtn">
+				<img id="asidebtn4" src="./images/86.png">
+			</div>
+			<div class="asidebtn">
+			    <img id="asidebtn5" src="./images/92.png">
+			</div>
+			<div class="asidebtn">
+				<img id="asidebtn6" src="./images/101.png">
+			</div>
+		</div>
+	</div>
+	<div id="aside2">
+		<div id="backbtn" style="height:25px;width:25px;margin-left:80%;margin-top:5px;">
+			<img src="./images/back.png">
+		</div>
+		<div style="margin-top:50px;margin-left:25%;line-height:40px">
+			<ul>
+				<ol id="ac"><a class="aclass" href="#">读者借阅查询</a></ol>
+				<ol id="ac"><a class="aclass" href="#">馆藏书目查询</a></ol>
+				<ol id="ac"><a class="aclass" href="#">硕士论文提交</a></ol>
+				<ol id="ac"><a class="aclass" href="#">昌北高校图书馆联盟</a></ol>
+				<ol id="ac"><a class="aclass" href="#">中国图书分类</a></ol>
+				<ol id="ac"><a class="aclass" href="#">中外文核心期刊目录</a></ol>
+				<ol id="ac"><a class="aclass" href="#">图书分布情况</a></ol>
+			</ul>
+		</div>
+	</div>
+	<div id="aside3">
+	<div id="aside31" class="aside31">
+		<a class="aclass" href="#">学科馆员</a>
+	</div>
+	<div id="aside32" class="aside32">
+		<a class="aclass" href="#">邮箱咨询</a>
+	</div>
+	<div id="aside33" class="aside33">
+		<a class="aclass" href="#">联系电话</a>
+	</div>
+	<div id="aside34" class="aside34">
+		<a class="aclass" href="#">在线咨询</a>
+	</div>
+	<div id="aside35" class="aside35">
+		<a class="aclass" href="#">官方微博</a>
+	</div>
+	<div id="aside36" class="aside36">
+		<a class="aclass" href="#">官方微信</a>
+	</div>
+	</div>
+	<div id="rightblock"><!-- 右边主要页面 -->
+		<div id="nav1"><!-- 导航栏 -->
+		    <div id="nav1text">
+		    	<div class="nav1t"><a class="aclass" href="#">设为首页</a></div>
+		    	<div class="nav1t"><a class="aclass" href="#">收藏本站</a></div>
+		    	<div class="nav1t"><a class="aclass" href="#">交大首页</a></div>
+		    </div>
+		    <div id="nav1i">
+		        <div id="nav1ii"><img src="./images/light-top.png"></div>
+		        <div id="nav1it"><a href="#">旧</a></div>
+		    </div>
+		</div>
+		<div id="nav2">
+			<div id="nav2i1"><img src="./images/07.png"></div>
+			<div id="nav2i2"><img src="./images/11.png"></div>
+			<div id="nav2i3"><img src="./images/13.png"></div>
+			<div id="nav2i4"><img src="./images/16.png"></div>
+			<div id="nav2t1">
+				<span class="navh1">本馆概况</span>
+				<div class="uln1" style="height:180px;background:white;opacity:0.2;display:none;top:100px">
+				</div>
+				<ul class="uln1" style="display:none;width:75px;position:absolute;z-index:100;top:25px">
+			        <ol><img src="./images/22.png"></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">本馆介绍</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">组织机构</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">平面布局</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">规章制度</a></ol>
+			    </ul>
+				
+			</div>
+		    <div id="nav2t2">
+				<span class="navh2">读者服务</span>
+				<div class="uln2" style="height:180px;background:white;opacity:0.2;display:none;top:100px">
+				</div>
+				<ul class="uln2" style="display:none;width:75px;position:absolute;z-index:100;top:25px">
+			        <ol><img src="./images/22.png"></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">借阅规则</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">图书荐购</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">开放时间</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">入馆须知</a></ol>
+			    </ul>
+				
+			</div>
+			<div id="nav2t3">
+				<span class="navh3">参考咨询</span>
+				<div class="uln3" style="height:180px;background:white;opacity:0.2;display:none;top:100px">
+				</div>
+				<ul class="uln3" style="display:none;width:75px;position:absolute;z-index:100;top:25px">
+			        <ol><img src="./images/22.png"></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">代办查新、收引</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">读者培训</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">文献传递</a></ol>
+			   </ul>
+				
+			</div>
+			<div id="nav2t4">
+				<span class="navh4">党群园地</span>
+				<div class="uln4" style="height:180px;background:white;opacity:0.2;display:none;top:100px">
+				</div>
+				<ul class="uln4" style="display:none;width:75px;position:absolute;z-index:100;top:25px">
+			        <ol><img src="./images/22.png"></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">职工风采</a></ol>
+				    <ol class="oll" style="margin-top:10px;text-align:center"><a class="aol" href="#">党建之窗</a></ol>
+			    </ul>
+			</div>
+			<div id="nav2t5">
+				<span class="navh5">教材服务</span>
+			</div>
+			<div id="nav2i5"><img src="./images/03.png"></div>	
+
+		</div>
+		<div id="section"><!-- 中间主要内容 -->
+			<div class="entry"><!-- 登录 -->
+				<img id="entry_1" src="images/one.png"/>
+				<div id="antry_message">
+					<img src ="images/threeteen.png"/>
+				    <form >
+				        <select class="entry_3" !unimportant >
+				        	<option select="selected" onmouseover="style.opacity='0',style.color='#18bd9b'" onmouseout="style.opacity:1">登录方式</option>
+				        	<option class="sel_1" >学（工）号</option>
+				        	<option class="sel_1">借书证号</option>
+				        </select>
+				    </form>
+				    <div id="xuehao">
+				    	<input type="text" value="学（工）/证号" class="xuehao"/><img  src="images/three.png">
+                	</div>
+                	<div id="password">
+					     <input type="text" value="密码" name="password" class="password"/><img src="images/four.png">
+					</div>
+				</div>
+				<div id="antry_submit">
+					<div id="zhuce"><input type="image" id="entry_4" src="images/five.png"/></div>
+					<div id="denglu"><input type="image" id="entry_5" src="images/six.png"/></div>
+				</div>
+			</div>
+			<div class="block"><!-- 模块 -->
+				<table id="block_1">
+		    		<tr>
+		        		<td></td>
+		        		<td></td>
+		        		<td></td>
+		        		<td class="block_2" style="background-color:#18bd9b;">
+		        	    	<img src="images/seven.png"/>
+                	        <div class="block_3">
+		        	        	<a href="#" class="block_4"></a>
+		        	        	<h3>试用数据库</h3>
+		        	        	<p>包含了各种中外文试用的各种形式的电子资源</p>
+		        	        </div>
+		       			</td>
+		        		<td  style="background-color:grey" onmouseover="style.opacity='0.8'" onmouseout="style.opacity='1'">
+		       		 	</td>
+		       			<td></td>
+		   			</tr>
+		   			<tr>
+		        		<td class="block_2" style="background-color:#18bd9b;">
+		            	<img src="images/eight.png"/>
+		         	       <div class="block_3" style="margin:40px 9px 58px">
+		            	    	<a href="#" class="block_4"></a>
+		            	    	<h3>（个人信息）</h3> 
+		            	    </div>
+		        		</td>
+		        		<td class="block_2" style="background-color:#75c6b8;">
+		            		<img src="images/nine.png"/>
+		            	    <div class="block_3">
+                    	    	<a href="#" class="black_4"></a>
+		            	    	<h3>中文数据库</h3>
+		            	    	<p>包含了数述期刊、学术论文、电子图书学术视频等中文电子资源</p>
+		            		</div>   
+		        		</td>
+		        		<td style="background-color: #afafaf" onmouseover="style.opacity='0.8'" onmouseout="style.opacity='1'"></td>
+		        		<td style="background-color:grey" onmouseover="style.opacity='0.8'" onmouseout="style.opacity='1'"></td>
+		        		<td class="block_2" style="background-color:#18bd9b;">
+		           			<img src="images/ten.png"/>
+		            	    <div class="block_3">
+		            	    	<a href="#" class="block_4"></a>
+		            	    	<h3>学科导航</h3>
+		            	    	<p>包含了本校相关性专业的相关动态和资源</p>
+		            		</div>
+		        		</td>
+		        		<td style="background-color:grey" onmouseover="style.opacity='0.8'" onmouseout="style.opacity='1'"></td>
+		    		</tr>
+		    		<tr>
+		        		<td></td>
+		        		<td style="background-color:grey" onmouseover="style.opacity='0.8'" onmouseout="style.opacity='1'"></td>
+		        		<td class="block_2" style="background-color:#75c6b8;">
+		         		   	<img src="images/eleven.png"/>
+		            		<div class="block_3" >
+		                	   	<a href="#" class="block_4"></a>
+		                	    <h3>外文数据库</h3>
+		                	   	<p>包含英文学术期、英文电子图书等外文资源</p>
+		            		</div>
+		        		</td>
+		        		<td></td>
+		        		<td></td>
+		        		<td class="block_2" style="background-color:#18bd9b;">
+		            		<img src="images/twelve.png"/>
+		            	    <div class="block_3" style="margin:40px 9px 58px">
+		            	    	<a href="#" class="block_4"></a>
+		            	    	<h3>站内搜索</h3>
+		            		</div>
+		        		</td>
+		    		</tr>
+	    		</table>
+			</div>		
+			<div class="search"><!-- 检索 -->
+				<div class="searchNav">
+					<span id="Nav1">昌</span>
+					<span id="Nav2">北</span>
+					<span id="Nav3">高</span>
+					<span id="Nav4">校</span>
+					<span id="Nav5">数</span>
+					<span id="Nav6">字</span>
+					<span id="Nav7">图</span>
+					<span id="Nav8">书</span>
+					<span id="Nav9">馆</span>
+				</div>
+				<div class="searchContent">
+					<ul class="searchContentNav">
+						<li><a id="guide1" href="javascript:changeguide(1)">知识</a></li>
+						<li><a id="guide2" href="javascript:changeguide(2)">图书</a></li>
+						<li><a id="guide3" href="javascript:changeguide(3)">期刊</a></li>
+						<li><a id="guide4" href="javascript:changeguide(4)">报纸</a></li>
+						<li><a id="guide5" href="javascript:changeguide(5)">论文</a></li>
+						<li><a id="guide6" href="javascript:changeguide(6)">专利</a></li>
+						<li><a id="guide7" href="javascript:changeguide(7)">标准</a></li>
+						<li><a id="guide8" href="javascript:changeguide(8)">视频</a></li>
+					</ul>
+					<div id="searchContentguide"></div><!-- 检索指向图标 -->
+					<div class="searchContentInput"><!-- 输入框 -->
+						<input id="searchContentInputText" name="search" type="text"/>
+						<div id="searchContentInputSubmit"></div>
+					</div>
+					<div class="searchContentHelp">
+						<ul>
+							<li><a href="#">高级检索</a></li>
+							<li><a href="#">使用帮助</a></li>
+						</ul>
+					</div>
+					<div id="searchContentSelect">
+						<ul>
+							<li onclick="searchTxt(1)">
+								<img id="searchSubmit1" src="./images/BooksManagementSystem_97_2.png"/>
+								<div class="searchContentSelectTxt">作者</div>
+							</li>
+							<li onclick="searchTxt(2)">
+								<img id="searchSubmit2" src="./images/BooksManagementSystem_97.png"/>
+								<div class="searchContentSelectTxt">书名</div>
+							</li>
+							<li onclick="searchTxt(3)">
+								<img id="searchSubmit3" src="./images/BooksManagementSystem_97.png"/>
+								<div class="searchContentSelectTxt">全部字段</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="trends"><!-- 动态 -->
+				<div id="trendsNav">
+					<ul>
+						<li><a id="trendsNews" onmouseover="Over1()" href="javascript:void(0)">新闻公告</a></li>
+						<li><a id="trendsResource" onmouseover="Over2()" href="javascript:void(0)">资源动态</a></li>
+						<li><a id="trendsMore" href="#">MORE</a></li>
+					</ul>
+				</div>
+				<div id="trendsNewsmessage" class="trendsMessage">
+					<ul>
+						<li class="trendsContent"><a href="#">关于暑假期间图书馆开放安排的通知</a></li>
+						<li>2015-07-07</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">关于2015年硕士毕业生提交学位论文的通知</a></li>
+						<li>2015-08-10</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">我馆在昌北联盟游泳比赛中荣获佳绩</a></li>
+						<li>2015-05-28</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">"我与图书馆"微电影大赛通告</a></li>
+						<li>2015-04-22</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">我校选手再次在搜索竞赛中获得佳绩</a></li>
+						<li>2015-05-25</li>
+					</ul>
+				</div>
+				<div id="trendsResourcemessage" class="trendsMessage">
+					<ul>
+						<li class="trendsContent"><a href="#">资源动态</a></li>
+						<li>2015-07-07</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">资源动态</a></li>
+						<li>2015-08-10</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">资源动态</a></li>
+						<li>2015-05-28</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">资源动态</a></li>
+						<li>2015-04-22</li>
+					</ul>
+					<ul>
+						<li class="trendsContent"><a href="#">我校选手再次在搜索竞赛中获得佳绩</a></li>
+						<li>2015-05-25</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerline"></div>
+			<div class="footerwrapper">
+				<a href="">读者学社</a>
+				<a href="">图书捐赠</a>
+				<a href="">软件下载</a>
+				<a href="">馆藏统计</a>
+				<a href="">社会化服务</a>
+				<a href="">交大VPN</a>
+				<a href="">移动图书馆</a>
+			</div>
+			<div class="footerp">
+				<p class="footerp1">COPYRIGHT@2012 版权所有:图书馆信息技术中心</p>
+				<p class="footersp2">ALLRight Reserved 2012年9月</p>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<script type="text/javascript">
+	$(function(){
+		$("#menubtn").bind("click",function(){
+			$("#aside2").animate({
+			left:"+=280px"
+		    },100);
+		})
+	})
+	$(function(){
+		
+		$("#backbtn").bind("click",function(){
+			$("#aside2").animate({
+				left:"-=280px"
+			},100)
+		})
+	})
+     
+
+	$(function(){
+		$("#nav2t1").bind("click",function(){
+			$(".uln1").slideToggle("fast")
+		})
+	})
+	$(function(){
+		$("#nav2t2").bind("click",function(){
+			$(".uln2").slideToggle("fast")
+		})
+	})
+	$(function(){
+		$("#nav2t3").bind("click",function(){
+			$(".uln3").slideToggle("fast")
+		})
+	})
+	$(function(){
+		$("#nav2t4").bind("click",function(){
+			$(".uln4").slideToggle("fast")
+		})
+	})
+	$(function(){
+		$("#nav2t5").bind("click",function(){
+			$(".uln5").slideToggle("fast")
+		})
+	})
+
+
+	$(function(){
+		$("#nav2t1").bind("mouseover",function(){
+			$(".navh1").css("color","#75c6b8")
+		})
+	})
+	$(function(){
+		$("#nav2t1").bind("mouseout",function(){
+			$(".navh1").css("color","#999")
+		})
+	})
+
+	$(function(){
+		$("#nav2t2").bind("mouseover",function(){
+			$(".navh2").css("color","#75c6b8")
+		})
+	})
+	$(function(){
+		$("#nav2t2").bind("mouseout",function(){
+			$(".navh2").css("color","#999")
+		})
+	})
+
+	$(function(){
+		$("#nav2t3").bind("mouseover",function(){
+			$(".navh3").css("color","#75c6b8")
+		})
+	})
+	$(function(){
+		$("#nav2t3").bind("mouseout",function(){
+			$(".navh3").css("color","#999")
+		})
+	})
+	$(function(){
+		$("#nav2t4").bind("mouseover",function(){
+			$(".navh4").css("color","#75c6b8")
+		})
+	})
+	$(function(){
+		$("#nav2t4").bind("mouseout",function(){
+			$(".navh4").css("color","#999")
+		})
+	})
+	$(function(){
+		$("#nav2t5").bind("mouseover",function(){
+			$(".navh5").css("color","#75c6b8")
+		})
+	})
+	$(function(){
+		$("#nav2t5").bind("mouseout",function(){
+			$(".navh5").css("color","#999")
+		})
+	})
+
+
+
+	$(function(){
+		$("#asidebtn1").bind("click",function(){
+			$("#aside31").toggle("fast");
+		})
+	})
+
+	$(function(){
+		$("#asidebtn2").bind("click",function(){
+			$("#aside32").toggle("fast");
+		})
+	})
+	$(function(){
+		$("#asidebtn3").bind("click",function(){
+			$("#aside33").toggle("fast");
+		})
+	})
+
+	$(function(){
+		$("#asidebtn4").bind("click",function(){
+			$("#aside34").toggle("fast");
+		})
+	})
+	$(function(){
+		$("#asidebtn5").bind("click",function(){
+			$("#aside35").toggle("fast");
+		})
+	})
+	$(function(){
+		$("#asidebtn6").bind("click",function(){
+			$("#aside36").toggle("fast");
+		})
+	})
+	</script>
+
+</body>
+</html>
